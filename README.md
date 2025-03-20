@@ -8,9 +8,19 @@ This project implements an **Extended Kalman Filter (EKF)** for range-only track
 This project is ideal for those interested in state estimation, sensor fusion, or robotics, and serves as a practical introduction to non-linear filtering techniques.
 
 ## Demo Video  
-Here’s a demo video showcasing the EKF in action:  
+Here’s a demo video showcasing the EKF in action for a simple circular reference trajectory:  
 
 ![demo_video GIF](./demo_video.gif)
+
+## Error Plots and 3-Sigma Bounds  
+The following plots show the **error covariance** and **3-sigma bounds** for the estimated states over time. These plots help visualize the performance and uncertainty of the EKF.
+
+![Error Covariance Plots](./error_cov_plots_ekf.png)
+
+### Explanation of the Plots:
+- **Error Covariance (\(P\))**: The plots show the error covariance for different states (e.g., position, velocity, orientation) over time. The error covariance represents the uncertainty in the EKF's estimates.
+- **3-Sigma Bounds**: The shaded regions represent the **3-sigma bounds**, which indicate the confidence interval for the estimates. If the errors stay within these bounds, the filter is performing well.
+- **States Tracked**: The states include position (\(P_n\), \(P_d\)), velocity (\(V\)), orientation (\(\psi\)), and other relevant variables. Each plot corresponds to a specific state, showing how the error and uncertainty evolve over time.
 
 ## Packages Required  
 To run this project, you’ll need the following Python packages:  
