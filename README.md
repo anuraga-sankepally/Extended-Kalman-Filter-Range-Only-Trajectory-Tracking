@@ -10,7 +10,7 @@ This project is ideal for those interested in state estimation, sensor fusion, o
 ## Demo Video  
 Here’s a demo video showcasing the EKF in action:  
 
-<video src="https://github.com/anuraga-sankepally/Extended-Kalman-Filter-Range-Only-Tracking/demo_video.mp4" controls width="600"></video>
+![demo_video GIF](./demo_video.gif)
 
 ## Packages Required  
 To run this project, you’ll need the following Python packages:  
