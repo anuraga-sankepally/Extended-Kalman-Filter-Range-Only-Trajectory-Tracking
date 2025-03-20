@@ -7,6 +7,11 @@ This project implements an **Extended Kalman Filter (EKF)** for range-only track
 
 This project is ideal for those interested in state estimation, sensor fusion, or robotics, and serves as a practical introduction to non-linear filtering techniques.
 
+## Demo Video  
+Here’s a demo video showcasing the EKF in action:  
+
+<video src="https://github.com/ladyraga/Non-Linear-State-Estimation-/raw/main/demo_video.mp4" controls width="600"></video>
+
 ## Packages Required  
 To run this project, you’ll need the following Python packages:  
 - `numpy`  
