@@ -1,6 +1,4 @@
-# Extended Kalman Filter: Range-Only Tracking
-
-## Description  
+## Extended Kalman Filter: Range-Only Tracking
 This project implements an **Extended Kalman Filter (EKF)** for range-only tracking, a common problem in robotics and autonomous systems. The EKF is used to estimate the state of a moving object (e.g., a robot or vehicle) based on noisy range measurements from a sensor. The implementation demonstrates how to handle non-linear systems by linearizing the process and measurement models at each time step. The project includes:  
 - Simulation of a moving object with a known trajectory.  
 - Generation of noisy range measurements.  
